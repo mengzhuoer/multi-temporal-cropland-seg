@@ -1,0 +1,16 @@
+{
+    "experiment_name": "Shouyang_UNet_6T6B",
+    "region": "Shouyang",
+    "model_name": "unet",
+    "pretrained": true,
+    "num_temporal": 6,
+    "num_bands": 6,
+    "data_dir": "data",
+    "save_dir": "results/checkpoints",
+    "batch_size": 2,
+    "num_workers": 2,
+    "epochs": 100,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "seed": 42
+}

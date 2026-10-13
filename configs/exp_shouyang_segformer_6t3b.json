@@ -1,0 +1,16 @@
+{
+    "experiment_name": "Shouyang_SegFormer_6T3B",
+    "region": "Shouyang",
+    "model_name": "segformer",
+    "num_workers": 2,
+    "batch_size": 2,
+    "num_temporal": 6,
+    "num_bands": 3,
+    "data_dir": "data",
+    "save_dir": "results/checkpoints",
+    "pretrained": true,
+    "epochs": 100,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "seed": 42
+}

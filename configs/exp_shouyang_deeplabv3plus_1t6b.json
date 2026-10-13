@@ -1,0 +1,20 @@
+{
+    "experiment_name": "Shouyang_DeepLabV3plus_1T6B",
+    "region": "Shouyang",
+    "model_name": "deeplabv3plus",
+    "data_dir": "data",
+    "save_dir": "results/checkpoints",
+    "num_workers": 0,
+    "batch_size": 2,
+    "num_temporal": 1,
+    "num_bands": 6,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "epochs": 100,
+    "patience": 10,
+    "device": "cuda",
+    "model_params": {
+        "in_channels": 3,
+        "classes": 2
+    }
+}

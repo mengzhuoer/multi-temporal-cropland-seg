@@ -1,0 +1,17 @@
+{
+    "experiment_name": "deeplabv3plus_6t6b",
+    "data_dir": "data",
+    "model_name": "deeplabv3plus",
+    "num_classes": 5,
+    "num_bands": 6,
+    "num_temporal": 6,
+    "batch_size": 16,
+    "epochs": 100,
+    "learning_rate": 0.00005,
+    "weight_decay": 0.001,
+    "num_workers": 4,
+    "seed": 42,
+    "save_dir": "results/checkpoints",
+    "log_dir": "results/logs",
+    "patience": 8
+}
